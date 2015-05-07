@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">ProClassicsQuiz_Crosby</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome to Classics Quiz</string>
+    <string name="latin">Latin</string>
+    <string name="greek">Greek</string>
+    <string name="mixed">Mixed</string>
+    <string name="exit">Exit</string>
 </resources>

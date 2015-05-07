@@ -1,7 +1,14 @@
 package com.weebly.docrosby.proclassicsquiz_crosby;
 
+import android.app.ActionBar;
+import android.app.Activity;
+import android.graphics.Color;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.text.Spannable;
+import android.text.SpannableString;
+import android.text.style.BackgroundColorSpan;
+import android.text.style.ForegroundColorSpan;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -30,10 +37,33 @@ public class QuizActivity extends ActionBarActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.latn_menu_settings) {
             return true;
         }
-
-        return super.onOptionsItemSelected(item);
+        else if(id == R.id.grek_menu_settings) {
+            return true;
+        }
+        else if (id == R.id.mixd_menu_settings) {
+            return true;
+        }
+        else if (id == R.id.exit_menu_settings) {
+            finish();
+            System.exit(0);
+            return true;
+        }
+        else {
+            return super.onOptionsItemSelected(item);
+        }
+    }
+    @Override
+    public boolean onPrepareOptionsMenu(Menu menu) {
+        for (int i=0; i<menu.size(); i++) {
+            MenuItem mi = menu.getItem(i);
+            String title = mi.getTitle().toString();
+            Spannable newTitle = new SpannableString(title);
+            newTitle.setSpan(new ForegroundColorSpan(Color.WHITE), 0, newTitle.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+            mi.setTitle(newTitle);
+        }
+        return true;
     }
 }

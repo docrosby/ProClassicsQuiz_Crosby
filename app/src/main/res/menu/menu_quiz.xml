@@ -1,6 +1,29 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".QuizActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".QuizActivity">
+    <item
+        android:id="@+id/latn_menu_settings"
+        android:title="@string/latin"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:textColor="#fff"
+        android:background="#000" />
+    <item
+        android:id="@+id/grek_menu_settings"
+        android:title="@string/greek"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mixd_menu_settings"
+        android:title="@string/mixed"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:textColor="#fff"
+        android:background="#000" />
+    <item
+        android:id="@+id/exit_menu_settings"
+        android:title="@string/exit"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
 </menu>
