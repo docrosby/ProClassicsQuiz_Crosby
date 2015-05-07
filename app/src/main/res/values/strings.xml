@@ -6,4 +6,6 @@
     <string name="greek">Greek</string>
     <string name="mixed">Mixed</string>
     <string name="exit">Exit</string>
+    <string name="your_name">Your name:</string>
+    <string name="name_txtBox">enter your name...</string>
 </resources>
