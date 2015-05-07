@@ -49,7 +49,7 @@
 
             <EditText
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:text="@string/name_txtBox"
                 android:textColor="#00f"
                 android:background="#ddd" />
@@ -73,7 +73,7 @@
             <Button
                 android:id="@+id/latin_btn"
                 android:layout_width="0dp"
-                android:layout_height="fill_parent"
+                android:layout_height="250dp"
                 android:text="@string/latin"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
@@ -83,7 +83,7 @@
             <Button
                 android:id="@+id/greek_btn"
                 android:layout_width="0dp"
-                android:layout_height="255dp"
+                android:layout_height="250dp"
                 android:text="@string/greek"
                 android:layout_gravity="bottom|center_vertical"
                 android:layout_weight="1"
@@ -93,7 +93,7 @@
             <Button
                 android:id="@+id/mixed_btn"
                 android:layout_width="0dp"
-                android:layout_height="255dp"
+                android:layout_height="250dp"
                 android:text="@string/mixed"
                 android:layout_gravity="center_vertical"
                 android:layout_weight="1"
