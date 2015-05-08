@@ -13,6 +13,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.text.NumberFormat;
+
 
 public class ResultsActivity extends ActionBarActivity {
     private Button mAnother;
@@ -61,7 +63,7 @@ public class ResultsActivity extends ActionBarActivity {
         mIncorrect.setText(getResources().getString(R.string.incorrect_num) + " " + QuestionActivity.getIncorrect());
 
         mScore =  (TextView)findViewById(R.id.scr_txt);
-        mScore.setText(getResources().getString(R.string.score) + " " + QuestionActivity.getScore() + "%");
+        mScore.setText(getResources().getString(R.string.score) + " " + String.format("%.2f",QuestionActivity.getScore())+ "%");
 
         mAnother = (Button)findViewById(R.id.another_quiz_btn);
         mAnother.setOnClickListener(new View.OnClickListener() {

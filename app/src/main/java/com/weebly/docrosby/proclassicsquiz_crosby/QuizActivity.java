@@ -80,8 +80,8 @@ public class QuizActivity extends ActionBarActivity {
         mIntent.putExtra("quizType",quiz);
         mIntent.putExtra("player",playerName);
         */
-        startActivity(mIntent);
         if (tf){
+            startActivity(mIntent);
             finish();
         }
         else{
