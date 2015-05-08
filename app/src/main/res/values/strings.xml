@@ -13,6 +13,12 @@
     <string name="question_number">Question Number</string>
     <string name="question_label">Question Label</string>
     <string name="radio_btn">New RadioButton</string>
+    <string name="result_address">, your results are:</string>
+    <string name="another">Another Quiz</string>
+    <string name="reset">Reset</string>
+    <string name="correct_num">correct: </string>
+    <string name="incorrect_num">incorrect: </string>
+    <string name="score">score: </string>
 
     <string-array name="word_classics">
         <item>adelphos|brother|GRK</item>

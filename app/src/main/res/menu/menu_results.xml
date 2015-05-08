@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".QuizActivity">
     <item
-        android:id="@+id/submit_menu_settings"
-        android:title="@string/submit"
+        android:id="@+id/another_q_menu_settings"
+        android:title="@string/another"
         android:orderInCategory="100"
         app:showAsAction="never" />
     <item
-        android:id="@+id/quit_menu_settings"
-        android:title="@string/quit"
+        android:id="@+id/reset_menu_settings"
+        android:title="@string/reset"
         android:orderInCategory="100"
         app:showAsAction="never" />
 </menu>

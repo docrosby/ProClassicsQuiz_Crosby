@@ -11,14 +11,22 @@ import android.text.style.BackgroundColorSpan;
 import android.text.style.ForegroundColorSpan;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.EditText;
 
 
 public class QuizActivity extends ActionBarActivity {
+    private Button mLatin;
+    private Button mGreek;
+    private Button mMixed;
+    private Button mExit;
+    private EditText mEditText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+
     }
 
 

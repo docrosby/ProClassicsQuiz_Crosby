@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#000"
+    android:columnCount="1"
+    android:rowCount="4">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical">
+
+        <TextView
+            android:text="@string/result_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:id="@+id/result_salute"
+            android:layout_gravity="start|center_vertical"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="50dp">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    android:text="@string/correct_num"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#0b0"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:id="@+id/cor_txt"
+                    android:layout_gravity="start|center_vertical"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:background="#444"
+                    android:gravity="center_vertical|start"
+                    android:paddingLeft="10dp"
+                    android:singleLine="false" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:text="@string/incorrect_num"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#f00"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:id="@+id/inc_txt"
+                    android:layout_gravity="start|center_vertical"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:background="#444"
+                    android:gravity="center_vertical|start"
+                    android:paddingLeft="10dp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp">
+
+                <TextView
+                    android:text="@string/correct_num"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:id="@+id/textView"
+                    android:layout_gravity="start|center_vertical"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:background="#444"
+                    android:gravity="center_vertical|start"
+                    android:paddingLeft="10dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="bottom|center">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom|center">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="70dp"
+                android:text="@string/submit"
+                android:id="@+id/another_quiz_btn" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:text="@string/quit"
+                android:id="@+id/reset_button" />
+        </LinearLayout>
+    </FrameLayout>
+</GridLayout>
