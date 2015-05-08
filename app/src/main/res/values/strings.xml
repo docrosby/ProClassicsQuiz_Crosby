@@ -10,6 +10,9 @@
     <string name="name_txtBox">enter your name...</string>
     <string name="submit">Submit</string>
     <string name="quit">Quit</string>
+    <string name="question_number">Question Number</string>
+    <string name="question_label">Question Label</string>
+
     <string-array name="word_classics">
         <item>adelphos|brother|GRK</item>
         <item>ailouros|feline|GRK</item>

@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:textColor="#fff"
             android:textAppearance="@android:style/TextAppearance.Large"
-            android:id="@+id/textView"
+            android:id="@+id/welcome_text"
             android:layout_gravity="start|center_vertical" />
 
     </FrameLayout>
