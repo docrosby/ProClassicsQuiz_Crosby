@@ -16,8 +16,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="left|center_vertical"
-        android:layout_weight="0.25" >
+        android:layout_gravity="start|center_vertical" >
 
         <TextView
             android:text="@string/welcome"
@@ -26,14 +25,13 @@
             android:textColor="#fff"
             android:textAppearance="@android:style/TextAppearance.Large"
             android:id="@+id/textView"
-            android:layout_gravity="left|center_vertical" />
+            android:layout_gravity="start|center_vertical" />
 
     </FrameLayout>
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.20">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -48,6 +46,8 @@
                 android:paddingRight="20sp"/>
 
             <EditText
+                android:id="@+id/editText"
+                android:paddingLeft="4sp"
                 android:layout_width="fill_parent"
                 android:layout_height="30dp"
                 android:text="@string/name_txtBox"

@@ -8,4 +8,59 @@
     <string name="exit">Exit</string>
     <string name="your_name">Your name:</string>
     <string name="name_txtBox">enter your name...</string>
+    <string name="submit">Submit</string>
+    <string name="quit">Quit</string>
+    <string-array name="word_classics">
+        <item>adelphos|brother|GRK</item>
+        <item>ailouros|feline|GRK</item>
+        <item>angeion|vessel|GRK</item>
+        <item>barus|heavy|GRK</item>
+        <item>basileus|king|GRK</item>
+        <item>bathus|deep|GRK</item>
+        <item>demnion|bed|GRK</item>
+        <item>glukus|sweet|GRK</item>
+        <item>gramma|letter|GRK</item>
+        <item>hepta|seven|GRK</item>
+        <item>kapnos|smoke|GRK</item>
+        <item>khronos|time|GRK</item>
+        <item>khrusos|gold|GRK</item>
+        <item>Laos|people|GRK</item>
+        <item>lexis|word|GRK</item>
+        <item>oinos|wine|GRK</item>
+        <item>ophthalmos|eye|GRK</item>
+        <item>petra|rock|GRK</item>
+        <item>pyr|fire|GRK</item>
+        <item>tettares|four|GRK</item>
+        <item>thanatos|death|GRK</item>
+        <item>turos|cheese|GRK</item>
+        <item>xanthos|yellow|GRK</item>
+        <item>xiphos|sword|GRK</item>
+        <item>zōon|animal|GRK</item>
+
+        <item>acinus|berry|LAT</item>
+        <item>aestas|summer|LAT</item>
+        <item>annus|year|LAT</item>
+        <item>bestia|animal|LAT</item>
+        <item>catena|chain|LAT</item>
+        <item>deus|god|LAT</item>
+        <item>dulcis|sweet|LAT</item>
+        <item>fīlia|daughter|LAT</item>
+        <item>formica|ant|LAT</item>
+        <item>frāter|brother|LAT</item>
+        <item>gravis|heavy|LAT</item>
+        <item>hortus|garden|LAT</item>
+        <item>hostis|enemy|LAT</item>
+        <item>humus|ground|LAT</item>
+        <item>mors|death|LAT</item>
+        <item>mundus|world|LAT</item>
+        <item>novus|new|LAT</item>
+        <item>oculus|eye|LAT</item>
+        <item>pollex|thumb|LAT</item>
+        <item>rēx|king|LAT</item>
+        <item>septem|seven|LAT</item>
+        <item>tempus|time|LAT</item>
+        <item>ursus|bear|LAT</item>
+        <item>verbum|word|LAT</item>
+        <item>vinum|wine|LAT</item>
+    </string-array>
 </resources>
