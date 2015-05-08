@@ -47,13 +47,15 @@
                 android:paddingRight="20sp"/>
 
             <EditText
-                android:id="@+id/editText"
+                android:id="@+id/player_name"
                 android:paddingLeft="4sp"
                 android:layout_width="fill_parent"
                 android:layout_height="30dp"
                 android:text="@string/name_txtBox"
                 android:textColor="#00f"
-                android:background="#ddd" />
+                android:background="#ddd"
+                android:singleLine="true"
+                android:imeOptions="actionDone"/>
         </LinearLayout>
     </FrameLayout>
 

@@ -52,7 +52,8 @@
             android:layout_height="wrap_content"
             android:id="@+id/rBtnGroup"
             android:paddingTop="30dp"
-            android:paddingBottom="45dp">
+            android:paddingBottom="45dp"
+            android:paddingLeft="30dp">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -60,9 +61,11 @@
                 android:textColor="#fff"
                 android:text="@string/radio_btn"
                 android:id="@+id/rBtn1"
-                android:buttonTint="#ddd"
                 android:checked="false"
-                android:gravity="start|fill_vertical" />
+                android:gravity="start|fill_vertical"
+                android:backgroundTint="#fff"
+                android:buttonTint="#fff"
+                android:visibility="visible" />
 
             <RadioButton
                 android:layout_width="wrap_content"

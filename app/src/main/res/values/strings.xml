@@ -11,7 +11,7 @@
     <string name="submit">Submit</string>
     <string name="quit">Quit</string>
     <string name="question_number">Question Number</string>
-    <string name="question_label">Question Label</string>
+    <string name="question_label">Which is </string>
     <string name="radio_btn">New RadioButton</string>
     <string name="result_address">, your results are:</string>
     <string name="another">Another Quiz</string>
